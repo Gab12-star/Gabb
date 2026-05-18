@@ -1,34 +1,30 @@
 <?php
-$numbers = [1,2,3,4,5,6,7,8,9,10];
+function my_function($param1, $param2, $param3) {
+    $addition = $param1 + $param2 + $param3;
+    $subtraction = $param1 - $param2 - $param3;
+    $multiplication = $param1 * $param2 * $param3;
+    $division = $param1 / $param2 / $param3;
 
-// Addition
-$sum = array_sum($numbers);
-
-// Subtraction
-$subtraction = $numbers[0];
-for ($i = 1; $i < count($numbers); $i++) {
-    $subtraction -= $numbers[$i];
+    return [
+        "addition" => $addition,
+        "subtraction" => $subtraction,
+        "multiplication" => $multiplication,
+        "division" => $division
+    ];
 }
 
-// Multiplication
-$product = 1;
-foreach ($numbers as $num) {
-    $product *= $num;
-}
+// Hardcoded values
+$p1 = 25;
+$p2 = 13;
+$p3 = 6;
 
-// Division
-$division = $numbers[0];
-for ($i = 1; $i < count($numbers); $i++) {
-    if ($numbers[$i] != 0) {
-        $division /= $numbers[$i];
-    }
-}
+$result = my_function($p1, $p2, $p3);
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-<title>Array Operations</title>
+<title>Function Operations</title>
 
 <style>
     body {
@@ -59,6 +55,7 @@ for ($i = 1; $i < count($numbers); $i++) {
 
     td:first-child {
         font-weight: bold;
+        text-align: left;
     }
 </style>
 </head>
@@ -70,28 +67,28 @@ for ($i = 1; $i < count($numbers); $i++) {
 <table>
     <tr>
         <th colspan="2">
-            Array list: <?php echo implode(", ", $numbers); ?>
+            My Parameter values: <?php echo "$p1, $p2, $p3"; ?>
         </th>
     </tr>
 
     <tr>
         <td>Addition</td>
-        <td><?php echo $sum; ?></td>
+        <td><?php echo $result['addition']; ?></td>
     </tr>
 
     <tr>
         <td>Subtraction</td>
-        <td><?php echo $subtraction; ?></td>
+        <td><?php echo $result['subtraction']; ?></td>
     </tr>
 
     <tr>
         <td>Multiplication</td>
-        <td><?php echo $product; ?></td>
+        <td><?php echo $result['multiplication']; ?></td>
     </tr>
 
     <tr>
         <td>Division</td>
-        <td><?php echo $division; ?></td>
+        <td><?php echo $result['division']; ?></td>
     </tr>
 </table>
 
