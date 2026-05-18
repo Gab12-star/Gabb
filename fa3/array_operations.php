@@ -1,23 +1,22 @@
 <?php
-// Create array of 10 numbers
-$numbers = [1, 2, 3, 4, 5, 6, 7, 8, 10];
- 
-// ADDITION
+$numbers = [1,2,3,4,5,6,7,8,9,10];
+
+// Addition
 $sum = array_sum($numbers);
- 
-// SUBTRACTION
+
+// Subtraction
 $subtraction = $numbers[0];
 for ($i = 1; $i < count($numbers); $i++) {
     $subtraction -= $numbers[$i];
 }
- 
-// MULTIPLICATION
+
+// Multiplication
 $product = 1;
 foreach ($numbers as $num) {
     $product *= $num;
 }
- 
-// DIVISION
+
+// Division
 $division = $numbers[0];
 for ($i = 1; $i < count($numbers); $i++) {
     if ($numbers[$i] != 0) {
@@ -25,34 +24,72 @@ for ($i = 1; $i < count($numbers); $i++) {
     }
 }
 ?>
- 
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Array Operations</title>
-    <style>
-        body {
-            font-family: Arial;
-        }
-        table {
-            border-collapse: collapse;
-            width: 500px;
-            margin: 20px auto;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #ddd;
-        }
-    </style>
+<title>Array Operations</title>
+
+<style>
+    body {
+        font-family: 'Segoe UI', Arial;
+        background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+        margin: 0;
+        padding: 0;
+    }
+
+    h3 {
+        text-align: center;
+        margin-top: 30px;
+        color: #333;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 500px;
+        margin: 40px auto;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+
+    th {
+        background: #4CAF50;
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    td {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    tr:nth-child(even) {
+        background: #f2f2f2;
+    }
+
+    tr:hover {
+        background: #e0f7fa;
+    }
+
+    td:first-child {
+        font-weight: bold;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    td:last-child {
+        text-align: center;
+    }
+</style>
 </head>
+
 <body>
- 
-<h3 style="text-align:center;">Sample Output:</h3>
- 
+
+<h3>Sample Output</h3>
+
 <table>
     <tr>
         <th colspan="2">
@@ -76,6 +113,6 @@ for ($i = 1; $i < count($numbers); $i++) {
         <td><?php echo $division; ?></td>
     </tr>
 </table>
- 
+
 </body>
 </html>
