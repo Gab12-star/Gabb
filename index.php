@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FA - Activities</title>
+    <title>Formative & Summative Activities</title>
 
     <style>
         body {
@@ -37,14 +37,18 @@
             border: 1px solid #ddd;
             padding: 15px;
             border-radius: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .title {
-            font-weight: bold;
+        .task b {
+            font-size: 14px;
+        }
+
+        .task small {
+            color: #666;
         }
 
         .btn {
@@ -60,13 +64,11 @@
             background: #1f357a;
         }
 
-        .back {
-            display: block;
+        .footer {
             text-align: center;
             margin-top: 20px;
-            text-decoration: none;
-            color: #2c4da7;
-            font-size: 13px;
+            font-size: 12px;
+            color: gray;
         }
     </style>
 </head>
@@ -75,59 +77,69 @@
 <div class="container">
 
     <h1>Formative Activities</h1>
-    <div class="subtitle">Personal Information and PHP Pages</div>
-
-    <div class="task">
-        <div class="title">1. Personal Info</div>
-        <a href="personal.php" class="btn">Open</a>
+    <div class="subtitle">
+        Applications Development and Emerging Technologies
     </div>
 
     <div class="task">
-        <div class="title">2. Education</div>
-        <a href="education.php" class="btn">Open</a>
+        <div>
+            <b>1. Form Activity</b><br>
+            <small>Basic PHP form handling.</small>
+        </div>
+        <a href="fa/" class="btn">Open Project</a>
     </div>
 
     <div class="task">
-        <div class="title">3. Skills</div>
-        <a href="skills.php" class="btn">Open</a>
+        <div>
+            <b>2. FA1</b><br>
+            <small>First activity project.</small>
+        </div>
+        <a href="fa1/" class="btn">Open Project</a>
     </div>
 
     <div class="task">
-        <div class="title">4. Experience</div>
-        <a href="experience.php" class="btn">Open</a>
+        <div>
+            <b>3. FA2</b><br>
+            <small>Second activity project.</small>
+        </div>
+        <a href="fa2/" class="btn">Open Project</a>
     </div>
 
     <div class="task">
-        <div class="title">5. Objective</div>
-        <a href="objective.php" class="btn">Open</a>
+        <div>
+            <b>4. FA3</b><br>
+            <small>Third activity project.</small>
+        </div>
+        <a href="fa3/" class="btn">Open Project</a>
     </div>
 
     <div class="task">
-        <div class="title">6. Affiliation</div>
-        <a href="affiliation.php" class="btn">Open</a>
+        <div>
+            <b>5. FA4</b><br>
+            <small>Fourth activity project.</small>
+        </div>
+        <a href="fa4/" class="btn">Open Project</a>
     </div>
 
     <div class="task">
-        <div class="title">7. Student</div>
-        <a href="student.php" class="btn">Open</a>
+        <div>
+            <b>6. FA5</b><br>
+            <small>Cookies and PHP form processing.</small>
+        </div>
+        <a href="fa5/" class="btn">Open Project</a>
     </div>
 
     <div class="task">
-        <div class="title">8. Student 2</div>
-        <a href="student2.php" class="btn">Open</a>
+        <div>
+            <b>7. Fruit Project</b><br>
+            <small>Fruit PHP project.</small>
+        </div>
+        <a href="fruit/" class="btn">Open Project</a>
     </div>
 
-    <div class="task">
-        <div class="title">9. Shapes</div>
-        <a href="shape.php" class="btn">Open</a>
+    <div class="footer">
+       CARL GABRIEL VITALISTA | TC 27
     </div>
-
-    <div class="task">
-        <div class="title">10. Table</div>
-        <a href="table.php" class="btn">Open</a>
-    </div>
-
-    <a href="../" class="back">⬅ Back to Main Menu</a>
 
 </div>
 

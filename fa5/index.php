@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FA - Activities</title>
+    <title>FA5 - PHP Activities</title>
 
     <style>
         body {
@@ -37,13 +37,13 @@
             border: 1px solid #ddd;
             padding: 15px;
             border-radius: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .title {
+        .task-title {
             font-weight: bold;
         }
 
@@ -74,59 +74,40 @@
 
 <div class="container">
 
-    <h1>Formative Activities</h1>
-    <div class="subtitle">Personal Information and PHP Pages</div>
+    <h1>FA5 Activities</h1>
+    <div class="subtitle">PHP Forms, GET/POST, Cookies</div>
 
+    <!-- TASK 1 -->
     <div class="task">
-        <div class="title">1. Personal Info</div>
-        <a href="personal.php" class="btn">Open</a>
+        <div class="task-title">1. Favorite Color</div>
+        <a href="FavoriteColor.php" class="btn">Open</a>
     </div>
 
+    <!-- TASK 2 -->
     <div class="task">
-        <div class="title">2. Education</div>
-        <a href="education.php" class="btn">Open</a>
+        <div class="task-title">2. Result Colors</div>
+        <a href="ResultColors.php" class="btn">Open</a>
     </div>
 
+    <!-- TASK 3 -->
     <div class="task">
-        <div class="title">3. Skills</div>
-        <a href="skills.php" class="btn">Open</a>
+        <div class="task-title">3. Cookie Activity</div>
+        <a href="cookie.php" class="btn">Open</a>
     </div>
 
+    <!-- TASK 4 -->
     <div class="task">
-        <div class="title">4. Experience</div>
-        <a href="experience.php" class="btn">Open</a>
+        <div class="task-title">4. GET Method</div>
+        <a href="get.php" class="btn">Open</a>
     </div>
 
+    <!-- TASK 5 -->
     <div class="task">
-        <div class="title">5. Objective</div>
-        <a href="objective.php" class="btn">Open</a>
+        <div class="task-title">5. POST Method</div>
+        <a href="post.php" class="btn">Open</a>
     </div>
 
-    <div class="task">
-        <div class="title">6. Affiliation</div>
-        <a href="affiliation.php" class="btn">Open</a>
-    </div>
-
-    <div class="task">
-        <div class="title">7. Student</div>
-        <a href="student.php" class="btn">Open</a>
-    </div>
-
-    <div class="task">
-        <div class="title">8. Student 2</div>
-        <a href="student2.php" class="btn">Open</a>
-    </div>
-
-    <div class="task">
-        <div class="title">9. Shapes</div>
-        <a href="shape.php" class="btn">Open</a>
-    </div>
-
-    <div class="task">
-        <div class="title">10. Table</div>
-        <a href="table.php" class="btn">Open</a>
-    </div>
-
+    <!-- BACK -->
     <a href="../" class="back">⬅ Back to Main Menu</a>
 
 </div>
