@@ -93,7 +93,7 @@
 <body>
 
 <div class="container">
-    <h1>Formative 2</h1>
+    <h1>FA2 Activities</h1>
     <p class="subtitle">Applications Development and Emerging Technologies</p>
 
     <div class="project">
@@ -120,8 +120,6 @@
         <a href="two_digits/two_digit_combinations.php">Open Project</a>
     </div>
 
-    <footer>
-        Student Name: ____________ | Section: ____________
     </footer>
 </div>
 

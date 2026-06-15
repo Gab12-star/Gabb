@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FA - Activities</title>
+    <title>FA Activities</title>
 
     <style>
         body {
@@ -22,14 +22,6 @@
         h1 {
             text-align: center;
             color: #2c4da7;
-            margin-bottom: 5px;
-        }
-
-        .subtitle {
-            text-align: center;
-            font-size: 13px;
-            color: #555;
-            margin-bottom: 25px;
         }
 
         .task {
@@ -37,20 +29,16 @@
             border: 1px solid #ddd;
             padding: 15px;
             border-radius: 10px;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             display: flex;
             justify-content: space-between;
             align-items: center;
         }
 
-        .title {
-            font-weight: bold;
-        }
-
         .btn {
             background: #2c4da7;
             color: white;
-            padding: 7px 15px;
+            padding: 6px 14px;
             border-radius: 20px;
             text-decoration: none;
             font-size: 12px;
@@ -66,7 +54,6 @@
             margin-top: 20px;
             text-decoration: none;
             color: #2c4da7;
-            font-size: 13px;
         }
     </style>
 </head>
@@ -74,59 +61,31 @@
 
 <div class="container">
 
-    <h1>Formative Activities</h1>
-    <div class="subtitle">Personal Information and PHP Pages</div>
+    <h1>FA Activities</h1>
+
+    <!-- ✅ WORKING BUTTONS -->
 
     <div class="task">
-        <div class="title">1. Personal Info</div>
-        <a href="personal.php" class="btn">Open</a>
-    </div>
-
-    <div class="task">
-        <div class="title">2. Education</div>
-        <a href="education.php" class="btn">Open</a>
-    </div>
-
-    <div class="task">
-        <div class="title">3. Skills</div>
-        <a href="skills.php" class="btn">Open</a>
-    </div>
-
-    <div class="task">
-        <div class="title">4. Experience</div>
-        <a href="experience.php" class="btn">Open</a>
-    </div>
-
-    <div class="task">
-        <div class="title">5. Objective</div>
-        <a href="objective.php" class="btn">Open</a>
-    </div>
-
-    <div class="task">
-        <div class="title">6. Affiliation</div>
-        <a href="affiliation.php" class="btn">Open</a>
-    </div>
-
-    <div class="task">
-        <div class="title">7. Student</div>
+        <div>1. Student</div>
         <a href="student.php" class="btn">Open</a>
     </div>
 
     <div class="task">
-        <div class="title">8. Student 2</div>
+        <div>2. Student 2</div>
         <a href="student2.php" class="btn">Open</a>
     </div>
 
     <div class="task">
-        <div class="title">9. Shapes</div>
+        <div>3. Shapes</div>
         <a href="shape.php" class="btn">Open</a>
     </div>
 
     <div class="task">
-        <div class="title">10. Table</div>
+        <div>4. Table</div>
         <a href="table.php" class="btn">Open</a>
     </div>
 
+    <!-- ✅ BACK BUTTON -->
     <a href="../" class="back">⬅ Back to Main Menu</a>
 
 </div>

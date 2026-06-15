@@ -95,8 +95,7 @@
 
 <div class="header">
     <div class="header-text">
-        <span>Name: ____________________</span>
-        <span>Date: ____________________</span>
+        <span>Name: Carl Gabriel S. Vitalista</span>
     </div>
 
     <div class="header-logo">
