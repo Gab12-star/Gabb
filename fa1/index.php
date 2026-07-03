@@ -121,9 +121,9 @@ $address = "Manila, Philippines";
             <div class="section">
                 <h2>Education</h2>
                 <ul>
-                    <li>Elementary to Junior High School – WAAI</li>
-                    <li>Senior High School – SMSM</li>
-                    <li>College – FEU TECH (<?php echo $course; ?>)</li>
+                    <li>Elementary to Junior High School : Waminal Achievers Academy Inc.</li>
+                    <li>Senior High School : School of Mount Saint Mary</li>
+                    <li>College : Far Eastern Universtiy Institute of Technology (<?php echo $course; ?>)</li>
                 </ul>
             </div>
             <div class="section">
