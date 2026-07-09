@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS user_system;
-USE user_system;
+CREATE DATABASE IF NOT EXISTS activity_b;
+USE activity_b;
 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
