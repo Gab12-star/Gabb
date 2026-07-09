@@ -1091,3 +1091,64 @@ textarea.cv-form-control { resize: vertical; min-height: 80px; }
         display: none;
     }
 }
+
+/* ====================================
+   TEAM CARD HOVER EFFECT
+==================================== */
+
+.team-card{
+    transition: all .35s ease;
+    cursor: pointer;
+}
+
+.team-card:hover{
+    transform: translateY(-10px);
+    border-color: var(--cv-accent);
+
+    box-shadow:
+        0 20px 40px rgba(0,0,0,.35),
+        0 0 25px rgba(45,224,219,.20);
+}
+
+/* Avatar animation */
+
+.team-avatar{
+    transition: .35s ease;
+}
+
+.team-card:hover .team-avatar{
+    transform: scale(1.08);
+
+    box-shadow:
+        0 0 25px rgba(45,224,219,.35);
+}
+
+/* Name animation */
+
+.team-card h5{
+    transition:.3s ease;
+}
+
+.team-card:hover h5{
+    color:var(--cv-accent);
+}
+
+/* Role animation */
+
+.team-card .text-primary{
+    transition:.3s ease;
+}
+
+.team-card:hover .text-primary{
+    color:#4CE6E2 !important;
+}
+
+/* Description animation */
+
+.team-card p{
+    transition:.3s ease;
+}
+
+.team-card:hover p{
+    color:#d4dde9;
+}
